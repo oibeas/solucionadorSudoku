@@ -82,5 +82,5 @@ const solucion = async () => {
 
 }
 
-
+//Al pulsar en el boton ejecuta la llamada al api para pedirle la solucion
 botonSolucion.addEventListener('click', solucion)

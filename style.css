@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700;800&display=swap');
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+#puzzle{
+    width: 450px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+#puzzle input{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px solid black ;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    box-shadow: 0px 0px 1px #474747;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.cuadro9x9{
+    background-color: rgb(154, 213, 233) ;
+}
+
+.numeroInicial{
+    color: rgb(75, 96, 229);
+    font-weight: 700 !important;
+}
+
+#botonSolucion{
+    background-color: tomato;
+    color:white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+#botonSolucion:hover {
+    background-color: rgb(133, 85, 76);
+    border: 1px solid black;
+
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
